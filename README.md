@@ -187,7 +187,7 @@ var $ = function() {
 
 ## How does the attack work?
 
-When you make a request, the browser looks up any cookies is holds that are
+When you make a request, the browser looks up any cookies it holds that are
 scoped to the scheme, host and path of the request's URL, and includes them in
 the request. This includes requests made by `script` tags. So, when
 `http://bob:3001/evil.html` includes `http://alice:3000/notes.js`, the cookies
