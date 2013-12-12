@@ -1,0 +1,4 @@
+<% @user.notes.each do |note| %>
+  $('#notes').append('<li><%=j note.title %></li>');
+<% end %>
+

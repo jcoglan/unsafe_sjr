@@ -1,0 +1,18 @@
+<h1>Notes</h1>
+
+<ul id="notes">
+  <% @user.notes.each do |note| %>
+    <li><%= note.title %></li>
+  <% end %>
+</ul>
+
+<%= form_for @user.notes.new, :remote => true do |form| %>
+  <%= form.label :title %><br>
+  <%= form.text_field :title %><br>
+
+  <%= form.label :body %><br>
+  <%= form.text_area :body %><br>
+
+  <%= form.submit 'Save' %>
+<% end %>
+
