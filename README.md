@@ -2,7 +2,7 @@
 
 37signals recently published an article on [server-generated JavaScript
 responses](https://37signals.com/svn/posts/3697-server-generated-javascript-responses),
-which architecturallyr speaking is RJS by another name. You make a request to the
+which architecturally speaking is RJS by another name. You make a request to the
 server, the server returns JavaScript, and the browser runs the response through
 `eval()`. This application demonstrates why using this approach for certain
 kinds of requests is not safe.
