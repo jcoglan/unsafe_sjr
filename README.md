@@ -13,7 +13,7 @@ I will recap here the architectural pattern described on the 37signals blog. The
 following describes the app contained in this repo, so you can run this example
 yourself.
 
-Suppose Our app has two models: `User` and `Note`.
+Suppose our app has two models: `User` and `Note`.
 
 ```ruby
 class User < ActiveRecord::Base
