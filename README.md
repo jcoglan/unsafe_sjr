@@ -232,7 +232,7 @@ effects and cannot be read in the same way. The only way the attack could read
 the response is if you enable CORS support, _which you should never do on a site
 that uses cookies for authorization_.
 
-You should _not_ use _`respond_to` to check for XHR requests. Rails has a method
+You should _not_ use `respond_to` to check for XHR requests. Rails has a method
 for this, it's called `request.xhr?`. `respond_to` has too broad a definition of
 what a 'JavaScript' request is, and will lie to you. `request.xhr?` is based on
 checking the `X-Requested-With` header, which is set by jQuery's Ajax API but
