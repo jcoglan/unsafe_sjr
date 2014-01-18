@@ -141,7 +141,7 @@ Alice's data, and here it is:
 ```html
 <!-- evil.html -->
 
-<!doctype>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
